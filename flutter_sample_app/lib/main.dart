@@ -48,7 +48,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String? _text = "最初";
+  String? _text = "first";
 
   void _changeText(String? _str) {
     setState(() {
